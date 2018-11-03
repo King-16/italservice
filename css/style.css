@@ -338,9 +338,6 @@ background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 
 	position: relative;
 	overflow: hidden;
 }
-.what__car-item .cost{
-	display: none;
-}
 .cost__item-head{
 	margin-bottom: 20px;
 	position: absolute;
@@ -419,11 +416,12 @@ footer{
 
 
 .thank{
-	background: url(../img/services__bg.jpg);
+	background: url(../img/header__bg.png);
 	height: 100vh;
 	width: 100%;
 }
 .block{
+	padding: 20px;
 	margin: 50% auto;
 	color: #fff;
 	background: #000;
@@ -438,6 +436,9 @@ form{
 	border-radius: 10px;
 	font-family:"Palatino", sans-serif;
 
+}
+.back__home{
+	background: #be0101;
 }
 form .btn{
 	margin-top: 10px;
