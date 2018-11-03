@@ -39,6 +39,11 @@
 		align-items: center;
 		text-align: center;
 	}
+	.location__mark:after {
+	content:"Оболонь  ул. Богатырская, 8в";
+	display:inline-block;
+	font-size:15px;
+	}
 	.online__fixed{
 		display: block;
 	}
