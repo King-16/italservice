@@ -102,26 +102,31 @@
 									<h4>Запись на диагностику</h4>
 									<button class="close" data-dismiss="modal">x</button>
 								</div>
-								<form id="myModal" action="send.php" method="POST" target="_blank">
-									<div class="form__item">
+								<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='thank__page.html';}"></iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfdno1w6Ia3JTg4hfsF4I2we7Fny9Zg1KkT-FuCkiBhSGY3cA/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
+									<div class="form__item" dir="auto" id="i1" role="heading" aria-level="2" aria-describedby="i.desc.1187162242 i4">
 									Ваша марка автомобиля:</div>
-									<select name="mark" id="mark__auto" class="marka" required>
-								<option value="Fiat">Fiat</option>
-								<option value="Lancia">Lancia</option>
-								<option value="Alfa Romeo">Alfa Romeo</option>
-								<option value="Maserati">Maserati</option>
-								<option value="Porshe">Porshe</option>
+									<select name="mark" id="mark__auto" class="marka" aria-describedby="i.desc.1187162242 i.err.1187162242" name="entry.462497621">
+								<option jsname="YPqjbf" value="Fiat">Fiat</option>
+								<option jsname="YPqjbf" value="Lancia">Lancia</option>
+								<option jsname="YPqjbf" value="Alfa Romeo">Alfa Romeo</option>
+								<option jsname="YPqjbf" value="Maserati">Maserati</option>
+								<option jsname="YPqjbf" value="Porshe">Ferrari</option>
 									</select>
 									<div class="form__item">
 									Номер:</div>
-									<input type="phone" name="phone" id="phone" placeholder="Ваш номер телефона" required>
+									<input type="phone" aria-describedby="i.desc.80664293 i.err.80664293" name="entry.214321240" id="phone" placeholder="Ваш номер телефона">
 									<div class="form__item">
 									- Что беспокоит с технической стороны автомобиля?</div>
-									<textarea name="what__problem" id="what__problem" cols="30" rows="2"></textarea>
+									<textarea aria-describedby="i.desc.956156616 i.err.956156616"  name="entry.1731200902" id="what__problem" cols="30" rows="2"></textarea>
 									<div class="form__item">
 									Желаемая дата и время посещения:</div>
-									<input type="text">
-									<a href="send.php" class="btn btn-success">Отправить</a>
+									<input type="text" aria-describedby="i.desc.1858905420 i.err.1858905420" name="entry.940358586">
+									<button type="submit" name="send" class="btn btn-success" jsname="ksKsZd">Отправить</button>
 								</form>
 							</div>
 						</div>
@@ -421,7 +426,14 @@
 <script>
 	$(document).ready(function () {
 	 $("#phone").mask("+38 (999) 999-9999");
-});
-</script>
+});</script>
+
+
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='thank__page.html';}"></iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfdno1w6Ia3JTg4hfsF4I2we7Fny9Zg1KkT-FuCkiBhSGY3cA/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
 </body>
 </html>

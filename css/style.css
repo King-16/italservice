@@ -261,8 +261,11 @@ border-radius: 50%;
 	font-size: 18px;
 	font-weight: 400;
 	color: #fefefe;
+	display: none;
 }
-
+.what__car-item .cost{
+	display: none;
+}
 /*-------------------------Услуги---------------------------*/
 
 .services{
