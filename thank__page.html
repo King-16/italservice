@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+	<html lang="ua">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Опис сайту">
+		<meta name="Keywords" content="Ключові слова">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+			<!-- Link Bootstrap 4 -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+			<!-- Link css -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="http://..." type="image/x-icon">
+		
+		<title>Home</title>
+	</head>
+	<body>
+		
+		<div class="thank">
+			<div class="container-fluid">
+				<div class="row d-flex justify-content-center text-align-center">
+					<div class="col-lg-4">
+						<div class="block">
+							<h1>Спасибо Вам за заявку!</h1>
+							<p>Ваша заявка принята, ожидайте звонка</p>
+							<a href="#" class="btn btn-primary col-lg-12">Перейти на главную</a>
+						</div>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<form id="myModal" action="#">
+							<div class="form__item">Ваше имя:</div>
+							<select name="mark" id="mark__auto" class="marka">
+								<option value="Fiat">Fiat</option>
+								<option value="Lancia">Lancia</option>
+								<option value="Alfa Romeo">Alfa Romeo</option>
+								<option value="Maserati">Maserati</option>
+								<option value="Porshe">Porshe</option>
+							</select>
+							<div class="form__item">Ваш номер:</div>
+							<input type="text" required placeholder="Введите Ваш номер телефона">
+							<div class="form__item">Ваша почта:</div>
+							<input type="text" required placeholder="Введите Вашу почту">
+							<a href="#" class="btn btn-success">Отправить</a>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<img src='' alt="Вот так" id="myImg" width="350" height="440" title="Любимая">
+ 
+					 <div id="myModal" class="modal">
+					 
+					  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+					  <img class='modal-content' id="img01">
+					  
+					  <div id="caption"></div>
+					  
+					 </div>
+				</div>
+			</div>
+		</div>
+	<script>
+  var img = document.getElementById('myImg');
+  var modal = document.getElementById('myModal');  
+  var modalImg = document.getElementById('img01');
+  var captionText = document.getElementById('caption');
+  
+  //Открытие модального окна
+      img.onclick = function(){
+   modal.style.display = 'block';
+   modalImg.src = this.src;
+   captionText.innerHTML = this.alt;
+  }
+</script>
+	</body>
+	</html>	
