@@ -14,9 +14,7 @@
 	.line{
 		top: 250px;
 	}
-	.location__mark:after {
-	content:"Оболонь  ул. Богатырская, 8в";
-	display:inline-block;
+	.location__mark {
 	font-size:15px;
 	}
 }
@@ -39,10 +37,8 @@
 		align-items: center;
 		text-align: center;
 	}
-	.location__mark:after {
-	content:"Оболонь  ул. Богатырская, 8в";
-	display:inline-block;
-	font-size:15px;
+	.location__mark {
+		font-size:15px;
 	}
 	.online__fixed{
 		display: block;
@@ -69,5 +65,26 @@
 	}
 	.cost__item{
 		margin-top: 30px;
+	}
+	footer .location{
+		margin: 0 auto;
+	}
+	.phone{
+		text-align: center;
+	}
+	.services__item{
+		margin: 20px auto;
+	}
+	.services__block{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+	}
+	.services__item{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
 	}
 }

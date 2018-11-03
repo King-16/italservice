@@ -69,13 +69,22 @@ input {outline:none;}
 	border: 1px solid #676e73;
 	margin: 0 10px;
 	background: none;
+	height: 40px;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 .marker{
 	color: #c01718;
-	font-size: 24px;
+	font-size: 44px;
+	display: inline-block;
 }
-.location__mark:after{
-	content: "Оболонь  ул. Богатырская, 8в";
+.location{
+	display: flex;
+	align-content: center;
+}
+.location__mark{
 	display: inline-block;
 	color: #aab6c3;
 	font-size: 18px;
@@ -137,7 +146,7 @@ input {outline:none;}
 	font-size: 36px;
 	position: absolute;
 	top: -50px;
-	left: 25%;
+	left: 20%;
 	font-weight: 400;
 	text-shadow: 5px 8px 15px rgba(3, 3, 3, 0.75);
 	color: #fff;
@@ -261,10 +270,6 @@ border-radius: 50%;
 	font-size: 18px;
 	font-weight: 400;
 	color: #fefefe;
-	display: none;
-}
-.what__car-item .cost{
-	display: none;
 }
 /*-------------------------Услуги---------------------------*/
 
@@ -282,6 +287,7 @@ border-radius: 50%;
 }
 .services__item-head{
 	height: 196px;
+	max-width: 196px;
 	box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.8), inset 0 0 16px rgba(255, 255, 255, 0.15);
 	background-color: #530000;
 	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.2) 100%);
