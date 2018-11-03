@@ -14,6 +14,11 @@
 	.line{
 		top: 250px;
 	}
+	.location__mark:after {
+	content:"Оболонь  ул. Богатырская, 8в";
+	display:inline-block;
+	font-size:15px;
+	}
 }
 
 @media only screen and (max-width: 425px){
