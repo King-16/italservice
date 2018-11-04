@@ -92,7 +92,7 @@
 	.what__car{
 		margin-top: 100px;
 	}
-	.location__mark{
-		font-size: 10px;
+	header .location__mark{
+		font-size: 12px;
 	}
 }
