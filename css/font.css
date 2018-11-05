@@ -1,24 +1,24 @@
-@font-face{
-	font-family: "Palatino-bold italic"
-	url("../fonts/PALABI.TTF");
-	font-style: normal;
-	font-weight: normal;
+@font-face {
+  font-family: Palatino-bold italic;
+  src: local("../fonts/PALABI.TTF"),
+       local("../fonts/PALABI.TTF),
+       url(../fonts/PALABI.TTF) format("opentype");
 }
-@font-face{
-	font-family: "Palatino-bold"
-	url("../fonts/PALAB.TTF");
-	font-style: normal;
-	font-weight: normal;
+@font-face {
+  font-family: Palatino-bold;
+  src: local("../fonts/PALAB.TTF"),
+       local("../fonts/PALAB.TTF"),
+       url(../fonts/PALAB.TTF) format("opentype");
 }
-@font-face{
-	font-family: "Palatino"
-	url("../fonts/PALA.TTF");
-	font-style: normal;
-	font-weight: normal;
+@font-face {
+  font-family: Palatino-italic;
+  src: local("../fonts/PALAI.TTF"),
+       local("../fonts/PALAI.TTF"),
+       url(../fonts/PALAI.TTF) format("opentype");
 }
-@font-face{
-	font-family: "Palatino-italic"
-	url("../fonts/PALAI.TTF");
-	font-style: normal;
-	font-weight: normal;
+@font-face {
+  font-family: Palatino;
+  src: local("../fonts/PALA.TTF"),
+       local("../fonts/PALA.TTF"),
+       url(../fonts/PALA.TTF) format("opentype");
 }

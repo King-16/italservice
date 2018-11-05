@@ -35,7 +35,7 @@ h3{
 	text-transform: uppercase;
 	text-shadow: 5px 8px 15px rgba(3, 3, 3, 0.75);
 }
-input {outline:none;}
+input,textarea {outline:none;}
 
 .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle),.btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:not(:first-child){
 	border-radius: 50%;
@@ -75,6 +75,13 @@ header{
 	justify-content: center;
 	align-content: center;
 }
+.contacts__fixed{
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	flex-direction: column;
+	display: none;
+}
 .marker{
 	color: #c01718;
 	font-size: 44px;
@@ -82,6 +89,7 @@ header{
 }
 .location{
 	display: flex;
+	align-items: center;
 	align-content: center;
 }
 .location__mark{
@@ -106,13 +114,13 @@ header{
 	text-align: center;
 	color: #000;
 	font-size: 30px;
-	width: 115px;
-	height: 115px;
+	width: 145px;
+	height: 145px;
 	border-radius: 50%;
 	padding-top: 10px;
 	cursor: pointer;
 	position: absolute;
-	top: -45px;
+	top: -60px;
 	background-color: #be0101;
 }
 .online__fixed{
@@ -333,14 +341,13 @@ background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 
 	background-color: #343f4c;
 }
 .cost__item{
-	font-size: 21px;
+	font-size: 19px;
 	font-weight: 400;
 	color: #b9b9b9;
 	text-align: center;
 	background-color: #0a0c0e;
 	border-radius: 50%;
-	height: 244px;
-	width: 244px;
+	height: 224px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -348,6 +355,7 @@ background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 
 	border: 2px dotted #343f4c;
 	position: relative;
 	overflow: hidden;
+	margin: 0 5px;
 }
 .cost__item-head{
 	margin-bottom: 20px;

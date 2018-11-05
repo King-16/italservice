@@ -17,6 +17,9 @@
 	.location__mark {
 	font-size:15px;
 	}
+	.what__car{
+		padding-top: 100px;
+	}
 }
 
 @media only screen and (max-width: 425px){
@@ -30,6 +33,9 @@
 		top: 700px;
 		left: 100px;
 	}
+	.contacts__fixed{
+		display: block;
+	}
 	.footer{
 		display: flex;
 		flex-direction: column;
@@ -40,6 +46,15 @@
 	.location__mark {
 		font-size:15px;
 	}
+	.location{
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		margin: 5px 0;
+	}
+	.marker{
+		font-size: 15px;
+	}
 	.online__fixed{
 		display: block;
 	}
@@ -47,13 +62,13 @@
 		padding-top: 400px;
 	}
 	.contacts{
-		flex-direction: row;
+		display: none;
 	}
-	header .location{
+	/*header .location{
 		position: absolute;
 		top: -40px;
 		right: 0;
-	}
+	}*/
 	.line{
 		top: 250px;
 	}
@@ -87,13 +102,16 @@
 		flex-direction: column;
 		text-align: center;
 	}
+	.cost__item{
+		height: 244px;
+	}
 }
 @media only screen and (max-width: 360px){
 	.what__car{
 		margin-top: 180px;
 	}
 	header .location__mark{
-		font-size: 11px;
+		font-size: 10px;
 	}
 	header{
 		background: #000;
