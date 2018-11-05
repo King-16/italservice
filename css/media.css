@@ -93,9 +93,10 @@
 		margin-top: 180px;
 	}
 	header .location__mark{
-		font-size: 12px;
+		font-size: 11px;
 	}
 	header{
-		background: #000;
+		background: rgb(0, 0, 0, 0.7);
+
 	}
 }
